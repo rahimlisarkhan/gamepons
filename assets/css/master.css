@@ -7789,7 +7789,7 @@ img {
 /*  15. SLIDER CSS START
 /*----------------------------------------*/
 .roll__area {
-  background-image: linear-gradient(#a75cfd, #635bfd);
+  background-image:linear-gradient(to right, #635bfd, #a75cfd) ;
   padding: 31px 10px;
 }
 .roll__area-2 {
