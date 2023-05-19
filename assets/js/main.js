@@ -94,6 +94,7 @@
   // HERO - 9
 
   var testimonial_4 = new Swiper(".hero-9", {
+    speed: 500,
     pagination: {
       el: ".swiper-pagination",
       type: "fraction",
@@ -102,6 +103,7 @@
       nextEl: ".swiper-button-next",
       prevEl: ".swiper-button-prev",
     },
+
     direction: "horizontal",
     loop: true,
     slidesPerView: 1,
@@ -549,7 +551,7 @@
     spaceBetween: 0,
     centeredSlides: true,
     allowTouchMove: false,
-    speed: 2000,
+    speed: 5000,
     autoplay: {
       delay: 1,
       disableOnInteraction: true,
