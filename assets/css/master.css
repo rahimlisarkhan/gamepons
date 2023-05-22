@@ -2293,6 +2293,7 @@ img {
   font-weight: 500;
   font-size: 50px;
   line-height: 1;
+  text-transform: capitalize;
   color: var(--black-2);
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
@@ -7789,7 +7790,7 @@ img {
 /*  15. SLIDER CSS START
 /*----------------------------------------*/
 .roll__area {
-  background-image:linear-gradient(to right, #635bfd, #a75cfd) ;
+  background-image: linear-gradient(to right, #635bfd, #a75cfd);
   padding: 31px 10px;
 }
 .roll__area-2 {
